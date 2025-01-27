@@ -9,8 +9,8 @@ export const PriceRating = () => {
       </div>
       <div>
         <p>
-          We recommend booking soon. The average cost of this flight is $750,
-          but could rise 18% to 8085 Rs in two weeks.
+          We recommend booking soon. The average cost of this flight is 7500 Rs,
+          but could rise 18% to 8285 Rs in two weeks.
         </p>
         <p>
           Tripma analyzes thousands of flights, prices, and trends to ensure you

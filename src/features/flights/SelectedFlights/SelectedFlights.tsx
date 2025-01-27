@@ -17,31 +17,34 @@ export const SelectedFlights: FC<SelectedFlightsProps> = ({ flights }) => {
         <h5 className="subtotal">
           <span>Subtotal</span>
           <span>
-            $
+            
             {`${flights.reduce(
               (old, current) => old + (current.price?.subtotal || 0),
               0
             )}`}
+            Rs
           </span>
         </h5>
         <h5 className="taxes">
           <span>Taxes and Fees</span>
           <span>
-            $
+            
             {`${flights.reduce(
               (old, current) => old + (current.price?.taxes || 0),
               0
             )}`}
+            Rs
           </span>
         </h5>
         <h5 className="total">
           <span>Total</span>
           <span>
-            $
+            
             {`${flights.reduce(
               (old, current) => old + (current.price?.total || 0),
               0
             )}`}
+            Rs
           </span>
         </h5>
       </div>

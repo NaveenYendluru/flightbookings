@@ -34,7 +34,7 @@ export const TableCell: FC<FlightDataRow> = ({ flight, ...other }) => {
         ))}
       </td>
       <td>
-        <p>${flight.price?.total}</p>
+        <p>{flight.price?.total} Rs</p>
         <p>{flight.flightType}</p>
       </td>
     </tr>
