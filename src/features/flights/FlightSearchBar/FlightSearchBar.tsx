@@ -91,13 +91,7 @@ export const FlightSearchBar: FC<FlightSearchBarProps> = ({
 };
 
 const destinations = [
-  "NRT",
-  "PVG",
-  "STL",
-  "ATL",
-  "MSP",
-  "SFO",
-  "JFK",
-  "LAX",
-  "Label",
+  "DEL",
+  "MUM",
+  "VJD",
 ];
