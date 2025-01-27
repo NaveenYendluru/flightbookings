@@ -59,7 +59,7 @@ export const PriceGrid = () => {
                       }
                       onMouseEnter={() => setHoveredCell([i, j])}
                     >
-                      rs{cell}
+                      {cell}Rs
                     </td>
                   );
                 })}
